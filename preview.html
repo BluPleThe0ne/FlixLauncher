@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<link rel="stylesheet" href=".\style\preview_style.css">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">   
+<link rel="icon" type="image/x-icon" href=".\images\favicon.ico">
+<title>Flix Launcher - Online Preview</title>
+
+<html>
+
+<head>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <center>
+        <div id="pframe">
+            <h1 id="bluphonetxt">Blu Phone</h1>
+            <h1>16:30</h1>
+          
+            <div id="google_searchbar" onclick="location.href='https://google.com/'">
+                <img id="ggl_ic" src=".\images\googlelogo.png"></img>
+                <h3 id="searchtxt">Search on google</h3>
+            </div>
+            <div id="appslist">
+                <div id="topcntrler">
+                    <br>
+                    <br>
+                    <img id="yt_ic" src=".\images\yt_ic.png"></img>
+                    <img id="sp_ic" src=".\images\spotify_ic.png"></img>
+                </div>
+            </div>
+
+            <script src=".\js\preview.js"></script>
+
+            <script>
+                function openAppsList() {
+                    if (document.getElementById("appslist").style.visibility == "hidden") {
+                        document.getElementById("appslist").style.visibility = "visible";
+                        document.getElementById("topcntrler").style.visibility = "visible";
+                    } else {
+                        document.getElementById("appslist").style.visibility = "hidden";
+                        document.getElementById("topcntrler").style.visibility = "hidden";
+                    }
+                }
+            </script>
+
+            <script>
+
+            function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+            }
+            
+            function errorToast() {
+                document.getElementById("toast").style.visibility = "visible";
+            sleep(2000).then(() => {
+                document.getElementById("toast").style.visibility = "hidden";
+
+            });
+            }
+            
+            </script>
+
+            <div id="toast">
+                <h6>a</h6>
+                <h4>Install the application to access all the features</h4>
+            </div>
+            
+            <br>
+
+            <div id="btmapps">
+                <img id="settings_btn" src=".\images\settings_ic.png" onclick="errorToast()"></img>
+                <img id="plstore_btn" onclick="location.href='https://play.google.com/'" src=".\images\plstore_ic.png"></img>
+                <img id="appsdrwlist_btn" onclick="openAppsList()" src=".\images\ic_expand_less_white.png"></img>
+                <img id="phone_btn" src=".\images\phone_ic.png" onclick="errorToast()"></img>
+                <img id="gmail_btn" onclick="location.href='https://mail.google.com'" src=".\images\gmail_ic.png"></img>
+            </div>
+        </div>
+
+
+
+<body>
+
+
+
+
+
+
+
+    </head>
+</body>
+
+</html>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
