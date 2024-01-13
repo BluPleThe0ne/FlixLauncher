@@ -1,0 +1,146 @@
+ html {
+    background-color: #181818;
+ }
+
+#pframe {
+   background-color: #000000;
+   border-radius: 20px;
+   border-color: #DDDDDD;
+   border-style: solid;
+   width: 250px;
+   height: 530px;
+ }
+
+ #bluphonetxt {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 20px;
+    height: 25px;
+ }
+
+ h1 {
+   color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+ }
+
+#ggl_ic {
+   width: 20px;
+   height: 2Opx;
+   display: inline-block;
+   margin-right: 5%;
+   margin-bottom: -2%;
+}
+
+#google_searchbar {
+   color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    background-color: #181818;
+    border-radius: 80px;
+    width: 90%;
+}
+
+h2 {
+   color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+ }
+
+ h3 {
+   color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+ }
+
+ #searchtxt {
+   color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    margin-right: 20%;
+ }
+
+ #settings_btn {
+   width: 15%;
+   background-color: #2e2ecf;
+   border-radius: 80px;
+ }
+
+ #plstore_btn {
+   width: 15%;
+   background-color: #2e2ecf;
+   border-radius: 80px;
+ }
+ 
+ #appsdrwlist_btn {
+   width: 15%;
+ }
+
+ #phone_btn {
+   width: 15%;
+   background-color: #2e2ecf;
+   border-radius: 80px;
+ }
+
+ #gmail_btn {
+   width: 15%;
+   background-color: #2e2ecf;
+   border-radius: 80px;
+ }
+
+ #appslist {
+   background-color: #181818;
+   border-radius: 20px;
+   width: 80%;
+   height: 50%;
+ }
+
+ #topcntrler {
+   background-color: gray;
+   color: gray;
+   border-radius: 20px;
+   width: 50%;
+   height: 7%;
+ }
+
+ #yt_ic {
+   width: 40%;
+   margin-right: 150%;
+ }
+
+ #sp_ic {
+   width: 40%;
+   margin-right: -50%;
+   margin-top: -100%;
+   margin-bottom: 17px;
+ }
+
+ #toast {
+  background-color: #242424;
+  border-radius: 30px;
+  width: 80%;
+  height: 9%;
+  font-size: 9px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+ }
+
+ h4 {
+  margin-left: 10%;
+  margin-right: 10%;
+ }
+
+ h6 {
+  color: #242424;
+  font-size: 1px;
+ }
